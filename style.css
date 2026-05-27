@@ -1,12 +1,78 @@
 * {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .dark-background {
-    background-color: #1f2937;
-    color: #f9faf8;
+  background-color: #1f2937;
+  color: #f9faf8;
 }
 
-#hero h1 {
-    font-size: 48px;
+.site-header {
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.header-middle-area {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.hero-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.left-content {
+  gap: .5rem;
+  flex: 1;
+  display:flex;
+  flex-direction: column;
+}
+
+.right-content {
+  width: 600px;
+  height: 400px;
+  flex: 1;
+}
+.right-content img {
+  object-fit: cover;
+}
+
+#hero-signup {
+  border-radius: 5px;
+  background-color: #3882F6;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #e5e7eb;
+  border: transparent;
+  font-weight: 600;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: 900;
 }
