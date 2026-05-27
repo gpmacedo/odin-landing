@@ -1,0 +1,12 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.dark-background {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+#hero h1 {
+    font-size: 48px;
+}
