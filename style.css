@@ -10,6 +10,13 @@
 .site-header {
   display: flex;
   padding-bottom: 100px;
+  flex-wrap: nowrap;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo {
+  flex: 1;
 }
 
 .header-middle-area {
@@ -17,24 +24,23 @@
   width: 100%;
   gap: 2rem;
   justify-content: flex-end;
+  flex: 1;
 }
 
 .hero-container {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
-}
-
-.hero-content {
   display: flex;
   flex-direction: row;
   gap: 2rem;
 }
 
 .left-content {
-  gap: .5rem;
+  gap: 0.5rem;
   flex: 1;
-  display:flex;
+  display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .right-content {
@@ -48,7 +54,7 @@
 
 #hero-signup {
   border-radius: 5px;
-  background-color: #3882F6;
+  background-color: #3882f6;
   padding: 10px 30px;
   font-size: 18px;
   color: #e5e7eb;
@@ -75,4 +81,38 @@ a {
 .logo a {
   font-size: 24px;
   font-weight: 900;
+}
+
+#features {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#features h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  flex: 1;
+  align-items: center;
+}
+
+.square {
+  border: solid #3882f6;
+  height: 200px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
 }
