@@ -170,11 +170,34 @@ small {
   width: 70%;
   border-radius: 10px;
   display: flex;
-  justify-content: center;
-  align-content: center;
-  padding: 10px 20px;
+  padding: 50px 70px;
+  justify-content: space-around;
+}
+
+.banner p {
+  margin: 0;
+}
+
+.left-banner {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.right-banner {
+  align-content: flex-end;
 }
 
 .title {
-  font-weight: 
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.action-btn {
+  background-color: inherit;
+  border: white thin solid;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  padding: .5rem 1.5rem;
 }
