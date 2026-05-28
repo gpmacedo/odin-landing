@@ -14,7 +14,12 @@ This is my solution to the Landing Page Project of The Odin Project.
 
 ### Screenshot
 
-! [](./screenshot.png)
+![screenshot](https://raw.githubusercontent.com/gpmacedo/odin-landing/main/screenshot.png)
+
+### Links
+
+- Live Site: [odin-landing](https://gpmacedo.github.io/odin-landing/)
+
 
 ## My process
 
