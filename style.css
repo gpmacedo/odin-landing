@@ -32,7 +32,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .left-content {
@@ -41,6 +41,12 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  padding: 20px;
+  padding-right: 250px;
+}
+
+.left-content > * {
+  margin: 0;
 }
 
 .right-content {
@@ -84,28 +90,37 @@ a {
 }
 
 #features {
-  width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 
 #features h2 {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  margin: 75px;
+}
+
+#features p {
+  color: #1f2937;
+  margin: 5px;
 }
 
 .cards-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
   flex: 1;
   align-items: center;
+  max-width: 200px;
+  text-align: center;
+  margin-right: 50px;
 }
 
 .square {
