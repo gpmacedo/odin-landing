@@ -134,14 +134,26 @@ a {
 
 #testament {
   background-color: #e5e7eb;
-  font-size: 18px;
   color: #1f2937;
   font-weight: 900;
-
+  padding: 180px 0;
 }
 
 #testament h2 {
   font-size: 36px;
   font-weight: 300;
   color: #2c3643;
+  font-style: italic;
+}
+
+small {
+  display:block;
+  text-align: right;
+  font-size: 18px;
+}
+
+.quote-container {
+  width: 800px;
+  margin: 0 auto;
+  padding-left: 90px;
 }
