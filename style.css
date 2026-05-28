@@ -157,3 +157,24 @@ small {
   margin: 0 auto;
   padding-left: 90px;
 }
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.banner {
+  background-color: #3882f6;
+  width: 70%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 20px;
+}
+
+.title {
+  font-weight: 
+}
