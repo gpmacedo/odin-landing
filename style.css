@@ -204,11 +204,12 @@ small {
 
 .action-btn {
   background-color: inherit;
-  border: white thin solid;
+  border: white solid;
   border-radius: 8px;
   color: white;
   font-weight: 600;
-  padding: .5rem 1.5rem;
+  padding: .5rem 2rem;
+  font-size: 18px;
 }
 
 #footer {
